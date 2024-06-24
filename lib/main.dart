@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sliver_project/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,17 +18,6 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.pink,
     );
   }
 }
